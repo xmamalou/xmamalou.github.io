@@ -12,6 +12,12 @@ body {
     background-attachment: fixed;
 }
 
+.sections {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+}
+
 @keyframes identation {
     0% {
         margin-left: 25%;
@@ -87,12 +93,6 @@ a {
 .thumbnail:hover {
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
     filter: brightness(120%);
-}
-
-.sections {
-    margin-left: 10%;
-    display: grid;
-    grid-template-columns: 10% 10%;
 }
 
 .blocktext {
