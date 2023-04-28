@@ -1,7 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/x-icon" href="Resources/charliefav.png">
+        <link rel="stylesheet" type="text/css" href="Markup/markup.css" />
+        <title>Welcome! - Mantis</title>
+        <style> 
+            footer {
+                text-align: center;
+                background-color: black;
+                color: white;
+                display: grid;
+                grid-template-columns: 80% 20%;
+                margin-top: 40px;
+                margin-left: -10px;
+                margin-bottom: -10px;
+                margin-right: -7px;
+            }
+            .content {
+                flex: 1 0 auto;
+            }
+            .foottext {
+                margin-left: 10px;
+                margin-right: 20px;
+                text-align: left;
+            }
+            .languages {
+                text-align: right;
+                margin-right: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
     <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
+        <div class="content">
+            <div class="title">
+                <div class="titlimg"><a href="index.html"><img src="Resources/charliefav.png" alt="title img" width="150px" height="150px"></a></div>
+                <div class="titlstring"><a href="index.html"><img src="Resources/mantis.png" alt="title img" width="500px" height="100px"></a></div>
+            </div>
+        </div>
+        <div class="sections">
+            <h2 class="section">PROJECTS</h2>
+            <h2 class="section"><a href="About/en.html">ABOUT</a></h2>
+        </div>
+        <div class="card">
+            <div class="name"><a href="https://github.com/xmamalou/vector-tensor-booklet.git"><h3>Science-Tex</h3></a>
+                <p>Science-Tex is a LaTeX template for writing beautiful and professional scientific papers, without much hassle. Comes in double column 
+                and single column variants, and is easily customizable! Check it out by clicking the image on the right!
+            </p></div>
+            <a href="https://github.com/xmamalou/vector-tensor-booklet.git"><img src="Resources/sciencetex.png" alt="title img" width="180px" height="180px" class="thumbnail"></a>
+        </div>
+        <div class="card">
+            <div class="name"><a href="https://github.com/xmamalou/vector-tensor-booklet.git"><h3>Linear Algebra Fundamentals (Incomplete)</h3></a>
+                <p>Learn the basics of abstract linear algebra with this thorough and conscise guide. Only available in Greek for now, but an English version is planned!
+                    Check it out by clicking the image on the right!</p></div>
+                <a href="https://github.com/xmamalou/vector-tensor-booklet.git"><img src="Resources/vector.png" alt="title img" width="180px" height="180px" style="float:left;" class="thumbnail"></a>
+        </div>
     </body>
+    <footer class=".footer">
+        <p class="foottext">Physics connoisseur. Math enthusiast. C and Haskell enjoyer. Professionally unprofessional.</p>
+        <div class="languages">
+            <a href="el.html"><img src="Resources/greek.png" width="40px" height="40px"></a>
+            <a href=""><img src="Resources/english.png" width="40px" height="40px"></a>
+        </div>
+    </footer>
 </html>
