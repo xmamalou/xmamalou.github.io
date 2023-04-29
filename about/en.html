@@ -9,6 +9,7 @@
         <title>Welcome! - Mantis</title>
         <style> 
             footer {
+                bottom: 0;
                 text-align: center;
                 background-color: black;
                 color: white;
@@ -33,6 +34,33 @@
                 margin-top: 10px;
                 margin-bottom: 10px;
             }
+
+            .flag {
+                width: 40px; 
+                height: 40px;
+            }
+
+            @media screen and (max-width: 1023px) {
+                .foottext {
+                    font-size: 10pt;
+                    /* set position to center*/
+                    text-align: center;
+                }  
+
+                footer {
+                    grid-template-columns: 100%;
+                }
+
+                /* set the flags to be on top of each other */
+                .languages {
+                    size: 20pt;
+                }
+
+                .flag {
+                    width: 90px;
+                    height: 90px;
+                }
+            }
         </style>
     </head>
     <body>
@@ -48,7 +76,7 @@
         </div>
         <div class="blocktext">
                 <h2>Hello There!</h2>
-                <p>I am Mantis! I am a physics student from Greece, interested in math and programming. I certainly can't keep up with having big and organized projects,
+                <p> My name is Christopher Mamaloukas. I go online by Mantis. I am a physics student from Greece, interested in math and programming. I certainly can't keep up with having big and organized projects,
                     but I oftentimes whip up a small program or two to help me with my studies or just for fun. I also like writing about math and physics. Don't expect massive activity though.
                 </p>
                 <p>
@@ -71,8 +99,8 @@
     <footer class=".footer">
         <p class="foottext">Physics connoisseur. Math enthusiast. C and Haskell enjoyer. Professionally unprofessional.</p>
         <div class="languages">
-            <a href="el.html"><img src="../Resources/greek.png" width="40px" height="40px"></a>
-            <a href=""><img src="../Resources/english.png" width="40px" height="40px"></a>
+            <a href="el.html"><img class="flag" src="../Resources/greek.png" width="40px" height="40px"></a>
+            <a href=""><img class="flag" src="../Resources/english.png" width="40px" height="40px"></a>
         </div>
     </footer>
 </html>

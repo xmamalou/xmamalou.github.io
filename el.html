@@ -9,6 +9,7 @@
         <title>Χαίρετε! - Μάντις</title>
         <style> 
             footer {
+                bottom: 0;
                 text-align: center;
                 background-color: black;
                 color: white;
@@ -16,7 +17,7 @@
                 grid-template-columns: 80% 20%;
                 margin-top: 40px;
                 margin-left: -10px;
-                margin-bottom: -20px;
+                margin-bottom: -10px;
                 margin-right: -7px;
             }
             .content {
@@ -32,6 +33,33 @@
                 margin-right: 20px;
                 margin-top: 10px;
                 margin-bottom: 10px;
+            }
+
+            .flag {
+                width: 40px; 
+                height: 40px;
+            }
+
+            @media screen and (max-width: 1023px) {
+                .foottext {
+                    font-size: 10pt;
+                    /* set position to center*/
+                    text-align: center;
+                }  
+
+                footer {
+                    grid-template-columns: 100%;
+                }
+
+                /* set the flags to be on top of each other */
+                .languages {
+                    size: 20pt;
+                }
+
+                .flag {
+                    width: 90px;
+                    height: 90px;
+                }
             }
         </style>
     </head>
@@ -61,8 +89,8 @@
     <footer class=".footer">
         <p class="foottext">Γνώστης των φυσικών. Λάτρης των μαθηματικών. Προγραμματιστής C ϗ Haskell. Επαγγελματίας ερασιτέχνης.</p>
         <div class="languages">
-            <a href=""><img src="Resources/greek.png" width="40px" height="40px"></a>
-            <a href="index.html"><img src="Resources/english.png" width="40px" height="40px"></a>
+            <a href=""><img class="flag" src="Resources/greek.png" width="40px" height="40px"></a>
+            <a href="index.html"><img class="flag" src="Resources/english.png" width="40px" height="40px"></a>
         </div>
     </footer>
 </html>

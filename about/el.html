@@ -9,6 +9,7 @@
         <title>Welcome! - Mantis</title>
         <style> 
             footer {
+                bottom: 0;
                 text-align: center;
                 background-color: black;
                 color: white;
@@ -33,6 +34,33 @@
                 margin-top: 10px;
                 margin-bottom: 10px;
             }
+
+            .flag {
+                width: 40px; 
+                height: 40px;
+            }
+
+            @media screen and (max-width: 1023px) {
+                .foottext {
+                    font-size: 10pt;
+                    /* set position to center*/
+                    text-align: center;
+                }  
+
+                footer {
+                    grid-template-columns: 100%;
+                }
+
+                /* set the flags to be on top of each other */
+                .languages {
+                    size: 20pt;
+                }
+
+                .flag {
+                    width: 90px;
+                    height: 90px;
+                }
+            }
         </style>
     </head>
     <body>
@@ -48,7 +76,7 @@
         </div>
         <div class="blocktext">
             <h2>Χαίρετε!</h2>
-            <p>Με λένε Μάντι (οχί στην πραγματικότητα, προφανώς)! Είμαι φοιτητής Φυσικής στην Ελλάδα, με ενδιαφέροντα τα μαθηματικά και τον προγραμματισμό. Γενικά δεν τείνω να έχω μεγάλα
+            <p>Με λένε Χριστόφορο Μαμαλούκα (Ψευδώνυμο: Μάντις). Είμαι φοιτητής Φυσικής στην Ελλάδα, με ενδιαφέροντα τα μαθηματικά και τον προγραμματισμό. Γενικά δεν τείνω να έχω μεγάλα
                 πρότζεκτ, αλλά συνηθίζω πού και πού να κάνω κάτι μικρό, είτε για την σχολή μου, είτε για πλάκα. Μην περιμένετε πυρετό δραστηριότητας όμως.
             </p>
             <p>
@@ -71,8 +99,8 @@
     <footer class=".footer">
         <p class="foottext">Γνώστης των φυσικών. Λάτρης των μαθηματικών. Προγραμματιστής C ϗ Haskell. Επαγγελματίας ερασιτέχνης.</p>
         <div class="languages">
-            <a href=""><img src="../Resources/greek.png" width="40px" height="40px"></a>
-            <a href="en.html"><img src="../Resources/english.png" width="40px" height="40px"></a>
+            <a href=""><img class="flag" src="../Resources/greek.png" width="40px" height="40px"></a>
+            <a href="en.html"><img class="flag" src="../Resources/english.png" width="40px" height="40px"></a>
         </div>
     </footer>
 </html>
