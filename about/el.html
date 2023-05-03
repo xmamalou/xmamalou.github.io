@@ -11,14 +11,16 @@
             footer {
                 bottom: 0;
                 text-align: center;
-                background-color: black;
+                background-color: rgb(62, 27, 63);
                 color: white;
                 display: grid;
                 grid-template-columns: 80% 20%;
                 margin-top: 40px;
-                margin-left: -10px;
-                margin-bottom: -10px;
-                margin-right: -7px;
+                margin-left: auto;
+                margin-bottom: auto;
+                margin-right: auto;
+                border-radius: 10px;
+                box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
             }
             .content {
                 flex: 1 0 auto;
@@ -38,8 +40,16 @@
             .flag {
                 width: 40px; 
                 height: 40px;
+                transition: 0.1s;
             }
 
+            .flag:hover {
+                box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+                filter: brightness(120%);
+                border-radius:100px;
+            }
+
+            
             @media screen and (max-width: 1023px) {
                 .foottext {
                     font-size: 10pt;
@@ -48,7 +58,7 @@
                 }  
 
                 footer {
-                    grid-template-columns: 100%;
+                    grid-template-columns: unset;
                 }
 
                 /* set the flags to be on top of each other */
