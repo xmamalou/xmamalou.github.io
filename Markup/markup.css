@@ -27,6 +27,10 @@ a {
     color: #e689ee;
 }
 
+h5 {
+    color: #b9b3b3;
+}
+
 .title {
     position: relative;
     margin-top: 20px;
@@ -48,7 +52,13 @@ a {
 .sections {
     margin-left: 10%;
     display: grid;
-    grid-template-columns: 10% 10%;
+    grid-template-columns: 10% 10% 10%;
+}
+
+.sections-en {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 10% 7% 10%;
 }
 
 .section {
@@ -73,7 +83,26 @@ a {
     grid-template-columns: 84% auto;
 }
 
+.blog-card {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #703777;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    color: #FFEEEE;
+    transition: 0.2s;
+    display: grid;
+    grid-template-columns: 99% auto;
+}
+
 .card:hover {
+    margin-left: 12%;
+    margin-right: 8%;
+}
+
+.blog-card:hover {
     margin-left: 12%;
     margin-right: 8%;
 }
@@ -119,6 +148,34 @@ a {
     width: fit-content;
 }
 
+/* make the image block into a card where the caption is below the image and center it on the page*/
+.image-block {
+    position: relative;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: fit-content;
+    background-color: #703777;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    color: #FFEEEE;
+    display: block;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+/* make the image in the card fill the entire width and also be rounded on the top */
+.image-in-block {
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* force the text to break if it is too long */
+.text-in-block {
+    word-break: break-all;
+    text-align: center;
+}
+
 @media only screen and (max-device-width: 1500px) and (min-device-width: 1200px){
     .card {
         grid-template-columns: 80% auto;
@@ -142,12 +199,38 @@ a {
         grid-template-columns: 76% auto;
     }
 
+    .blog-card {
+        position: relative;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 10pt;
+        background-color: #703777;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        color: #FFEEEE;
+        display: grid;
+        grid-template-columns: 99% auto;
+    }
+
     .card:hover {
         margin-left: 5%;
         margin-right: 5%;
     }
 
+    .blog-card:hover {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     .sections {
+        margin-left: 5%;
+        display: unset;
+        grid-template-columns: unset;
+    }
+
+    .sections-en {
+        font-size: 20pt;
         margin-left: 5%;
         display: unset;
         grid-template-columns: unset;
@@ -176,5 +259,42 @@ a {
     .flag {
         width: "80px";
         height: "80px";
+    }
+
+    /* make the image block into a card where the caption is below the image, center it and make it big enough for phone screen */
+    .image-block {
+        position: relative;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        width: fit-content;
+        background-color: #703777;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        color: #FFEEEE;
+        display: block;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    /* make the image not stretched */
+    .image-in-block {
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .text-in-block {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        font-size: 10pt;
+    }
+    
+    /* make math large */
+    .math {
+        font-size: 30pt;
     }
 }

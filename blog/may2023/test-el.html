@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <link rel="icon" type="image/x-icon" href="../../Resources/charliefav.png">
+        <link rel="stylesheet" type="text/css" href="../../Markup/markup.css" />
+        <title>Δοκιμαστικό - Μάντις</title>
+        <style> 
+            footer {
+                bottom: 0;
+                text-align: center;
+                background-color: rgb(62, 27, 63);
+                color: white;
+                display: grid;
+                grid-template-columns: 80% 20%;
+                margin-top: 40px;
+                margin-left: auto;
+                margin-bottom: auto;
+                margin-right: auto;
+                border-radius: 10px;
+                box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+            }
+            .content {
+                flex: 1 0 auto;
+            }
+            .foottext {
+                margin-left: 10px;
+                margin-right: 20px;
+                text-align: left;
+            }
+            .languages {
+                text-align: right;
+                margin-right: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .flag {
+                width: 40px; 
+                height: 40px;
+                transition: 0.1s;
+            }
+
+            .flag:hover {
+                box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+                filter: brightness(120%);
+                border-radius:100px;
+            }
+
+            
+            @media screen and (max-width: 1023px) {
+                .foottext {
+                    font-size: 10pt;
+                    /* set position to center*/
+                    text-align: center;
+                }  
+
+                footer {
+                    grid-template-columns: unset;
+                }
+
+                /* set the flags to be on top of each other */
+                .languages {
+                    size: 20pt;
+                }
+
+                .flag {
+                    width: 90px;
+                    height: 90px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <div class="title">
+                <div class="titlimg"><a href="../../index.html"><img src="../../Resources/charliefav.png" alt="title img" width="150px" height="150px"></a></div>
+                <div class="titlstring"><a href="../../index.html"><img src="../../Resources/mantis.png" alt="title img" width="500px" height="100px"></a></div>
+            </div>
+        </div>
+        <div class="sections">
+            <h2 class="section"><a href="../../el.html">ΠΡΟΤΖΕΚΤ</a></h2>
+            <h2 class="section"><a href="../el.html">ΙΣΤΟΛΟΓΙΟ</a></h2>
+            <h2 class="section"><a href="../about/el.html">ΠΕΡΙ</a></h2>
+        </div>
+        <div class="blocktext">
+                <h2>ΔΟΚΙΜΑΣΤΙΚΟ</h2>
+                <h5><i>26.05.2023</i></h5>
+                <p>Αποφάσισα να φτιάξω ένα ιστολόγιο, για να γράφω ιδέες και νέα μου.</p>
+                </p>
+                <p>Δεν είμαι σίγουρος περί τίνος θα είναι αυτά που αναρτώ, αλλά νομίζω θα καλύπτουν εύρος θεμάτων. Δεν θα αναρτώ συχνά όμως.</p>
+                </div>
+        </div>
+        <div class="image-block">
+            <img class="image-in-block" src="../../Resources/may2023/graphic.jpg" alt="charlie fav" width="600px" height="350px">
+            <p class="text-in-block">Τίποτα δεν είναι καλύτερο συμπλήρωμα για μία τέλεια ανάρτηση <br> από μία τέλεια εικόνα.</p>
+        </div>
+        <div class="blocktext">
+            <p>Θα προσπαθήσω κιόλας να κάνω την LaTeX (προφέρεται Λατέχ, παρεμπιπτόντως) να λειτουργεί εδωπέρα. Παρατίθεται επίδειξη:</p>
+            <div class="math" >$$ \vec{\nabla}\boldsymbol{E} = \frac{\rho}{\epsilon_o} $$</div>
+            <p>Καλοδείχνει, δεν συμφωνείτε;</p>
+            <p>Τέλος πάντων. Αυτά για την ώρα. Χαιρετώ!</p>
+            <p>Υποσημείωση, ίσως να μην μεταφράζω κάθε ανάρτηση στα Ελληνικά (ή στα Αγγλικά, αν κάποιες γράφηκαν στα Ελληνικά), αλλ' οψόμεθα.
+            </p>
+    </div>
+    </body>
+    <div class="padder"></div>
+    <footer class=".footer">
+        <p class="foottext">Physics connoisseur. Math enthusiast. C and Haskell enjoyer. Professionally unprofessional.</p>
+        <div class="languages">
+            <a href=""><img class="flag" src="../../Resources/greek.png" width="40px" height="40px"></a>
+            <a href="../en.html"><img class="flag" src="../../Resources/english.png" width="40px" height="40px"></a>
+        </div>
+    </footer>
+</html>
