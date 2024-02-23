@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="51.324326mm"
+   height="51.324322mm"
+   viewBox="0 0 51.324326 51.324322"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Στρώση 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-55.874265,-117.74196)">
+    <rect
+       style="fill:#191528;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1"
+       width="51.324326"
+       height="51.324326"
+       x="55.874268"
+       y="117.74196"
+       ry="0" />
+    <path
+       style="fill:#0b0a11;fill-opacity:1;stroke:none;stroke-width:0.453525;stroke-linecap:round;stroke-linejoin:round"
+       d="m 66.459393,133.02588 h 27.910212 l 3.474988,10.14918 -8.804019,21.34633 H 73.054098 l -9.628424,-21.23603 z"
+       id="path1"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#0b0a11;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round"
+       d="m 63.72973,143.51351 -4.256757,-5.10811 2.858106,-12.70945 9.121621,8.57432 z"
+       id="path2" />
+    <path
+       style="fill:#0b0a11;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round"
+       d="m 97.714016,143.35281 4.256754,-5.10811 -2.858103,-12.70945 -9.121621,8.57432 z"
+       id="path2-5" />
+    <rect
+       style="fill:#0b0a11;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2"
+       width="2.1891892"
+       height="19.885136"
+       x="1.5780488"
+       y="137.97871"
+       transform="rotate(-28.654273)" />
+    <rect
+       style="fill:#0b0a11;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2-5"
+       width="2.1891892"
+       height="19.885136"
+       x="-139.69232"
+       y="60.052315"
+       transform="matrix(-0.87752914,-0.47952331,-0.47952331,0.87752914,0,0)" />
+  </g>
+</svg>
